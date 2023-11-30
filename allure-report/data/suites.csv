@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 30 23:54:05 WAT 2023","Thu Nov 30 23:54:15 WAT 2023","10612","All Test Suite","C:/Users/Support/Desktop/Selenium project","redirectPage.TestPage","redirectPage.TestPage","scrollDown","scrollDown","object page redirects with user password input and name input"
