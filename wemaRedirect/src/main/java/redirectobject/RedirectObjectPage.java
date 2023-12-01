@@ -22,7 +22,7 @@ public class RedirectObjectPage {
     public void setUp(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.get("https://the-internet.herokuapp.com/");
+        driver.get(Selectors.url);
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         js = (JavascriptExecutor) driver;
