@@ -12,4 +12,6 @@ public interface Selectors {
     public String select = "select";
 
     public String java1 = "Java"
+
+    public String url = "https://the-internet.herokuapp.com/"
 }
