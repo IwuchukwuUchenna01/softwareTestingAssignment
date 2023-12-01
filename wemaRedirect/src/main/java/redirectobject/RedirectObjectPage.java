@@ -63,8 +63,8 @@ public class RedirectObjectPage {
     }
 
     public void selectJava(){
-        Select select = new Select(driver.findElement(By.cssSelector("select")));
-        select.selectByValue("Java");
+        Select select = new Select(driver.findElement(By.cssSelector(Selectors.select)));
+        select.selectByValue(Selectors.java);
     }
     public void tearDown(){
         driver.quit();
