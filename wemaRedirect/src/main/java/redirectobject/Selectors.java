@@ -11,5 +11,5 @@ public interface Selectors {
 
     public String select = "select";
 
-    public String java = "Java"
+    public String java1 = "Java"
 }
