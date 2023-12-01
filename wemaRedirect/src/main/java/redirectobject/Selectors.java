@@ -9,5 +9,7 @@ public interface Selectors {
 
     public String text2 = "Esther Uche Joseph";
 
+    public String select = "select";
 
+    public String java = "java"
 }
